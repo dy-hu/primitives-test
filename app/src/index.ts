@@ -1,7 +1,8 @@
 import express, { Request, Response } from 'express';
 
 const app = express();
-const port = process.env.PORT || 3000;
+// HACK this needs to be refactored
+const port: number = "not a number"; // type error
 
 app.use(express.json());
 
