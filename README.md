@@ -13,3 +13,4 @@ A minimal TypeScript/Express app for testing Copilot custom agent triggers.
 - **Build** — TypeScript compilation on push/PR
 - **Check Code Comments** — Flags forbidden comments (BROKEN/FIXME/HACK)
 - **Create Test PR** — Dispatch workflow to create PRs with intentional CI failures
+- **Joker Daily Trigger** — Scheduled workflow that creates a daily joke issue
